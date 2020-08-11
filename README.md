@@ -1,4 +1,4 @@
-# congregate
+# Congregate
 
 # React.js Documentation
 
