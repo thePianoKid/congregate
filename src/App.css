@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+@media (prefers-color-scheme: light) {
+  *:not(.app-signup-modal, .signin-button, .signpup-input-field){
+    background-color: white;
+  }
+  .app{background-color: #fafafa;}
+  .app-header-logo{
+    color: black;
+  }
+  .post {
+    border: 1px solid lightgray;
+  }
+  .post-image {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+  }
+}
+
+
+@media (prefers-color-scheme: dark){
+  *:not(.app-signup-modal){
+    background-color: #3b3b3b;
+  }
+  .app-header{
+    border-bottom: 1px solid rgb(46, 46, 46);;
+  }
+  .app-header-logo{
+    color: white;
+  }
+  .post {
+  background-color: rgb(46, 46, 46);
+  border: 1px solid rgb(34, 34, 34);
+  }
+  .post-image{
+  border-top: 1px solid rgb(34, 34, 34);
+  border-bottom: 1px solid rgb(34, 34, 34);
+  }
+  .post-text, .post-header{
+    color: white;
+  }
+}
+
+
+* {
+  margin: 0;
+  font-weight: normal;
+}
+
+
+.app-header {
+  padding: 20px;
+}
+
+
+.top-padding {
+  padding-bottom: 25px;
+}
+
+/*
+Uncomment if header logo is replaced by actual image:
+
+.app-header-logo {
+  object-fit: contain;
+}
+*/
+
+.app-header-logo {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+
+.post {
+  max-width: 500px;
+  margin-bottom: 45px;
+}
+
+
+.post-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.post-text {
+  font-weight: normal;
+  padding:  20px;
+}
+
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.post-avatar {
+  margin-right: 10px;
+}
+
+.app-signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input-padding {
+  padding-bottom: 15px;
+}
