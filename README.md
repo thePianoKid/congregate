@@ -2,9 +2,9 @@
 
 ## About Project
 
-Congregate is a desktop clone of the Instgram app that uses HTML, CSS, JS, React.js and Firebase.
+Congregate is a desktop clone of the Instagram app that uses HTML, CSS, JS, React.js and Firebase.
 
-It has image/video upload functionallity in addition to a robust user authentication system. Finally, users can comment on other's posts. 
+It has image and video upload functionality in addition to a robust user authentication system. Finally, users can comment on other's posts. 
 
 
 # React.js Documentation
