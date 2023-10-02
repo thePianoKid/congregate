@@ -6,7 +6,7 @@ Congregate is a desktop clone of the Instagram app that uses HTML, CSS, JS, Reac
 
 It has image and video upload functionality in addition to a robust user authentication system. Finally, users can comment on other's posts. 
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
